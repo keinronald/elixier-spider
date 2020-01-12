@@ -1,5 +1,11 @@
 # HtmlParserProject
 
+## Running the programm
+```
+iex -S mix
+Links.Runner.run
+```
+
 **TODO: Add description**
 
 ## Installation
