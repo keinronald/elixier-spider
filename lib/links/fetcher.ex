@@ -7,6 +7,8 @@ defmodule Links.Fetcher do
             %HTTPoison.Error{reason: reason} ->
                 IO.puts(reason)
                 nil
+            _ -> 
+                nil
         end
     end
 

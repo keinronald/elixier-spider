@@ -1,7 +1,7 @@
 defmodule Links.Runner do
 
-  def run do
-    Links.Spider.start("https://stackoverflow.com/", 3)
+  def run(seed_url \\ "https://stackoverflow.com/", depth \\ 3) do
+    Links.Spider.start(seed_url, depth)
   end
 
 end
