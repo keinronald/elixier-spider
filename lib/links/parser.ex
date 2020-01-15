@@ -1,4 +1,6 @@
 defmodule Links.Parser do
+    def parse(nil, _), do: []
+
     def parse(html, url) do
         %{host: host_url} = URI.parse(url)
         
